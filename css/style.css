@@ -1,0 +1,168 @@
+.fotka
+{
+
+    width: 300px;
+    border-radius:15px;
+    border:0;
+}
+
+.fotka-test
+{
+    background-image: url("../images/logo.png");
+    width: 100px;
+    border-radius:15px;
+    border:0;
+}
+.main-fotka
+{
+    width: 100%;
+}
+.body-test
+{
+
+background-color: green;
+    color:white;
+    height: 100%;
+
+}
+
+.logo-div
+{
+    flex-basis: 0;
+    position: relative;
+    padding-left: 16px;
+}
+
+.karta
+{
+    width:  350px;
+    height: 250px;
+    -webkit-box-shadow: 11px 7px 21px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 11px 7px 21px -10px rgba(0,0,0,0.75);
+    box-shadow: 11px 7px 21px -10px rgba(0,0,0,0.75);
+    border-radius:15px;
+
+    overflow: hidden;
+    background-color: white;
+    cursor: hand;
+}
+
+.karta_about
+{
+    width:  450px;
+    height: 350px;
+    -webkit-box-shadow: 11px 7px 21px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 11px 7px 21px -10px rgba(0,0,0,0.75);
+    box-shadow: 11px 7px 21px -10px rgba(0,0,0,0.75);
+    border-radius:15px;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: white;
+
+}
+
+.kolor_red
+{
+    background-color: red !important;
+    height: 100%;
+    color:white;
+}
+.tytul_red
+{
+    color:red;
+}
+
+
+.kolor_green
+{
+    background-color: green !important;
+    height: 100%;
+    color:white;
+}
+.tytul_green
+{
+    color:green;
+}
+
+
+.biale_tlo
+{
+    background-color: white;
+}
+
+
+.fotka-menu
+{
+    width: 50px;
+}
+.card-columns
+{
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+flex-wrap:wrap;
+
+
+}
+
+.forma
+{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+    color: #555;
+    background-color: #e7e7e7;
+}
+
+.col-karta-1
+{
+    order:2;
+}
+
+.col-karta-2
+
+{
+    order: 1;
+}
+
+.label-pocztowy
+{
+   color:#495057;
+}
+
+@media screen and (max-width: 990px)
+{
+   .karta
+   {
+       height: 300px;
+   }
+
+}
+
+@media screen and (max-width: 765px)
+{
+    .karta
+    {
+        height: 200px;
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 370px)
+{
+
+    .karta
+    {
+        height: 250px;
+
+    }
+}
